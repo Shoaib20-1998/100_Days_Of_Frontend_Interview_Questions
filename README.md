@@ -1154,7 +1154,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
 222.  ### What is prototype chain?
 
-      Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype.
+      Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype.if we want to create prototype chain mannually then also we can create it using Object.setPrototypeOf(Newobj, oldobj)
 
 223.  ### How does prototypal inheritance work in JavaScript?
 
